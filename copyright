@@ -1,0 +1,13 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libwt
+Upstream-Contact: ?
+Source: https://github.com/emweb/wt
+
+Files: *
+Copyright:
+	Copyright Emweb bv, located in Herent (Belgium)
+License: GPL-2
+ the GNU General Public License, Version 2, with OpenSSL exception. Only
+ version 2 of the GPL applies.
+ .
+ The GPL is available in /usr/share/common-licenses/GPL-2 .

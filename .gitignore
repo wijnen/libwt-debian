@@ -1,0 +1,13 @@
+.debhelper/
+debhelper-build-stamp
+files
+*.log
+*.substvars
+libwt-common/
+libwt-dev/
+libwt4.7.2/
+libwtdbo4.7.2/
+libwtdbosqlite3-4.7.2/
+libwthttp4.7.2/
+libwttest4.7.2/
+tmp/

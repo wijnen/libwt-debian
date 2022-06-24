@@ -1,0 +1,57 @@
+Source: libwt
+Section: libs
+Priority: optional
+Maintainer: Bas Wijnen <wijnen@debian.org>
+Build-Depends: debhelper (>= 11), cmake, libhpdf-dev, asciidoc, libboost-all-dev, doxygen, pkg-config, qt5-qmake
+Standards-Version: 4.6.1
+
+Package: libwt-common
+Architecture: all
+Depends: ${misc:Depends}
+Description: C++ widget set for web interface
+ libwt allows a program that is written in C++ to define an interface. The
+ interface is served through the network in a browser.
+
+Package: libwt4.7.2
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, libwt-common
+Description: C++ widget set for web interface
+ libwt allows a program that is written in C++ to define an interface. The
+ interface is served through the network in a browser.
+
+Package: libwtdbo4.7.2
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, libwt-common
+Description: C++ widget set for web interface
+ libwt allows a program that is written in C++ to define an interface. The
+ interface is served through the network in a browser.
+
+Package: libwtdbosqlite3-4.7.2
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, libwt-common
+Description: C++ widget set for web interface
+ libwt allows a program that is written in C++ to define an interface. The
+ interface is served through the network in a browser.
+
+Package: libwthttp4.7.2
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, libwt-common
+Description: C++ widget set for web interface
+ libwt allows a program that is written in C++ to define an interface. The
+ interface is served through the network in a browser.
+
+Package: libwttest4.7.2
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, libwt-common
+Description: C++ widget set for web interface
+ libwt allows a program that is written in C++ to define an interface. The
+ interface is served through the network in a browser.
+
+Package: libwt-dev
+Architecture: all
+Depends: ${misc:Depends}, libwtdbo4.7.2 (= ${binary:Version}), libwtdbosqlite3-4.7.2 (= ${binary:Version}), libwthttp4.7.2 (= ${binary:Version}), libwttest4.7.2 (= ${binary:Version})
+Description: C++ widget set for web interface
+ libwt allows a program that is written in C++ to define an interface. The
+ interface is served through the network in a browser.
+ .
+ This package provides the development files.

@@ -1,0 +1,5 @@
+libwt (4.7.2-1) UNRELEASED; urgency=medium
+
+  * Initial release.
+
+ -- Bas Wijnen <wijnen@debian.org>  Mon, 30 Nov 2015 11:22:56 -0500
